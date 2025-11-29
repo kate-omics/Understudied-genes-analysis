@@ -4,7 +4,7 @@
 This project analyzes candidate gene expression across single-cell RNA-seq datasets. It includes two complementary workflows: a detailed comparison of two tumor-associated scRNA-seq datasets, and a scalable pipeline capable of integrating ten or more datasets. Using Seurat, the analysis identifies cell types, detects cluster-specific marker genes, compares tumor microenvironments across studies, and evaluates how candidate genes behave across diverse cellular contexts. The multi-dataset workflow automates preprocessing, batch integration, visualization, and pseudo-bulk summarization, enabling high-throughput exploration of hundreds of genes across large scRNA-seq collections.
 
 ## scRNA-seq Candidate Gene Analysis
-### Part 1: Comparative Analysis of Selected Datasets (.R)
+### Part 1: Comparative Analysis of Selected Datasets
 This repository demonstrates analysis and comparison of two scRNA-seq datasets, GSE72056 and GSE115978, both profiling tumor and immune/microenvironment cell populations. The workflow includes:
 
 - Subsetting and preprocessing individual Seurat objects.
